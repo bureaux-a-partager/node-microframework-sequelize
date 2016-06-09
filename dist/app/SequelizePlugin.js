@@ -13,8 +13,8 @@ var SequelizePlugin = (function () {
                 multipleStatements: true
             }
         });
-        container.registerService(this.name, this.instance);
         core_1.Container.setApplicationInstance(container);
+        core_1.Container.registerService(this.name, this.instance);
     }
     SequelizePlugin.prototype.getInstance = function () {
         return this.instance;
