@@ -15,8 +15,8 @@ export class SequelizePlugin {
                 multipleStatements: true
             }
         });
-        container.registerService(this.name, this.instance);
         Container.setApplicationInstance(container);
+        Container.registerService(this.name, this.instance);
     }
 
     getInstance() {

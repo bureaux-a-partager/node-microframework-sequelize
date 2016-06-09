@@ -1,6 +1,6 @@
 {
   "name": "bap-node-microframework-sequelize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bap-node-microframework": "git+https://github.com/bap-node-microframework/node-microframework.git"
+    "bap-node-microframework": "0.1.5"
   }
 }
