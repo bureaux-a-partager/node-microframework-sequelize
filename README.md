@@ -18,6 +18,10 @@ To create a connection to *mysql://localhost:3306*, write the following code in 
 // app/app.ts
 ...
 
+import { SequelizePlugin } from 'bap-node-microframework-sequelize';
+
+...
+
 import { Kernel } from "./kernel";
 var kernel = new Kernel();
 var App = new Application(<ApplicationOptions>{
